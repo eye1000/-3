@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty Surprise</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #d0eaff; /* Soft pastel blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+            overflow: hidden;
+        }
+
+        .center-text {
+            color: #ff94c2; /* Soft pink text */
+            font-size: 28px;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            background-color: #ffe0f0; /* Light pink background for the button */
+            border: 3px solid #ff94c2;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+            animation: bounceIn 1.5s ease-out;
+        }
+
+        .center-text:hover {
+            transform: scale(1.1);
+            background-color: #ffb3d9; /* Slightly darker pink on hover */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            60% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://example.com" class="center-text">
+        WANNA SEE SOMEONE PRETTY ?
+    </a>
+</body>
+</html>
