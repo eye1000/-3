@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe Pookie Webpage</title>
+    <style>
+        /* Light blue background */
+        body {
+            background-color: #cceeff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+        }
+
+        /* Centering the button */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        /* Cute button style */
+        .cute-button {
+            background-color: #ffccdd;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 15px 30px;
+            font-size: 24px;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            animation: bounce 2s infinite;
+        }
+
+        /* Button hover effect */
+        .cute-button:hover {
+            background-color: #ffaabb;
+            transform: translateY(-5px);
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Button click effect */
+        .cute-button:active {
+            transform: translateY(0);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button animation */
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-15px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.instagram.com/_yukilmao?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="cute-button">SURE?</a>
+    </div>
+</body>
+</html>
